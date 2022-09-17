@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f35fe4-2ff6-400e-bc22-214867ab7507" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArabicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DemoCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Evaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RomeCalculator.java" afterDir="false" />
+    <list default="true" id="c7f35fe4-2ff6-400e-bc22-214867ab7507" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestArabicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBasicEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRomeCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +51,50 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DemoCalculator">
-    <configuration name="DemoCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DemoCalculator" />
+  <component name="RunManager" selected="JUnit.All in demo_calculator">
+    <configuration name="All in demo_calculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo_calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArabicCalculator.test2_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArabicCalculator" />
+      <option name="METHOD_NAME" value="test2_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRomeCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRomeCalculator" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRomeCalculator.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRomeCalculator" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRomeCalculator.test2_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRomeCalculator" />
+      <option name="METHOD_NAME" value="test2_2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,12 +125,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoCalculator" />
+      <item itemvalue="JUnit.All in demo_calculator" />
+      <item itemvalue="JUnit.TestArabicCalculator.test2_1" />
+      <item itemvalue="JUnit.TestRomeCalculator" />
+      <item itemvalue="JUnit.TestRomeCalculator.test1" />
+      <item itemvalue="JUnit.TestRomeCalculator.test2_2" />
       <item itemvalue="Maven.demo_calculator [--debug]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoCalculator" />
+        <item itemvalue="JUnit.All in demo_calculator" />
+        <item itemvalue="JUnit.TestRomeCalculator" />
+        <item itemvalue="JUnit.TestRomeCalculator.test2_2" />
+        <item itemvalue="JUnit.TestRomeCalculator.test1" />
+        <item itemvalue="JUnit.TestArabicCalculator.test2_1" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663346734327</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1663364004675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663364004675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
